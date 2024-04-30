@@ -3,25 +3,55 @@
   <head>
     <title>Who am I-SSY</title>
     <meta charset="utf-8">
-  
+    <style>
+      a{
+        color:black;
+      }
+      h1{
+        border-bottom: 3px black solid;
+        font-size:75px; 
+        text-align: center;
+        margin:0;
+        padding:10px;
+      }
+      ol{
+        font-size: 18px;
+        font-weight: 100;
+        border-right: 3px solid black;
+        width:80px;
+        margin:0;
+        margin-left:30px;
+        padding:10px;
+      }
+      #grid{
+        display:grid;
+        grid-template-columns: 150px 1fr;
+      }
+     
+    </style>
   </head> 
   
   <body>
-    <h2><a href="index.html">Who am I</a></h2>
-    <ol>
-      <li><a href="1.html">나의 탄생</a></li>
-      <li><a href="2.html">나의 형성</a></li>
-      <li><a href="3.html">현재의 나</a></li>
-    </ol>
-  
-  
-    <h1>나의 탄생</h1>
-    <p>
-      <u>2008/12/17</u><br>
-      그 날 짱팔이라는 태명만을 가지고 있던 존재가 <strong>신서윤</strong>이라는 이름을 부여받고
-      세상이라는 이름의 바다로 뛰어들었다.<br>
-      <img src="born.jpg" width="25%">
-    </p>
+    <h1><a href="index.html" style="text-decoration:none">Who am I</a></h1>
+   
+   
+    <div id="grid">
+      <ol>
+        <li><a href="1.html" style="color:lightskyblue;text-decoration: none;">나의 탄생</a></li>
+        <li><a href="2.html">나의 형성</a></li>
+        <li><a href="3.html">나의 현재</a></li>
+      </ol>
+    
+    <div>
+      
+      <h2>나의 탄생</h2>
+      <p>
+        <u>2008/12/17</u><br>
+        짱팔이가 <strong>신서윤</strong>된 날<br>
+        <img src="born.jpg" width="25%">
+      </p>
+    </div>
+    </div>
 
     </body>
 </html>

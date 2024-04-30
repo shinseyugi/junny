@@ -3,24 +3,56 @@
   <head>
     <title>Who am I-SSY</title>
     <meta charset="utf-8">
-  
+    <style>
+      #insta{
+        border: 2px solid pink;
+        padding-top:0;
+      }
+      a{
+        color:black;
+      }
+      h1{
+        border-bottom: 3px black solid;
+        font-size:75px; 
+        text-align: center;
+        margin:0;
+        padding:10px;
+      }
+      ol{
+        font-size: 18px;
+        font-weight: 100;
+        border-right: 3px solid black;
+        width:80px;
+        margin:0;
+        margin-left:30px;
+        padding:10px;
+      }
+      #grid{
+        display:grid;
+        grid-template-columns: 150px 1fr;
+      }
+    </style>
   </head> 
   
   <body>
-    <h1><a href="index.html">Who am I</a></h1>
-    <ol>
-      <li><a href="1.html">나의 탄생</a></li>
-      <li><a href="2.html">나의 형성</a></li>
-      <li><a href="3.html">현재의 나</a></li>
-    </ol>
-  
-  
-    <h2>현재의 나</h2>
-    <p>
-      솔직히 아직 명확한 내 길 또는 정체성, 자아를 못찾은 것 같다.
-    표면적인 정보를 나열하자면 <strong>대중동고</strong>에 재학중이며 17살, 대한민국에서 세계적인 게임회사를 만들어내는게 꿈인 고등학생이다.<br>
-    <a href="https://www.instagram.com/shinseyugi/" target="_blank" type="instagram page" >인스타중독임</a><br>
-    <img src="recent me.jpg" width="50%">
-    </p>
+    <h1><a href="index.html"style="text-decoration:none">Who am I</a></h1>
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">나의 탄생</a></li>
+        <li><a href="2.html">나의 형성</a></li>
+        <li><a href="3.html" style="color:lightskyblue;text-decoration: none;">나의 현재</a></li>
+      </ol>
+    
+    
+      <div>
+        <h2>나의 현재</h2>
+      <p>
+        솔직히 아직 명확한 내 길 또는 정체성, 자아를 못찾은 것 같다.
+        대한민국에서 세계적인 게임회사를 만들어내는게 꿈인 고등학생이다.<br>
+      <a id="insta" href="https://www.instagram.com/shinseyugi/" target="_blank" type="instagram page" style="color:pink">인스타</a>중독임<br>
+      <img src="recent me.jpg" width="50%">
+      </p>
+      </div>
+    </div>
   </body>
 </html>
